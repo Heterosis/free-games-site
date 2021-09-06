@@ -1,0 +1,48 @@
+{
+    "headerText": "在前端工程師的路上不斷努力",
+    "aboutMe": {
+        "introduce": "Hi! 我是一名自學轉職的前端工程師，由於有自學的經驗，我有自信在工作中遭遇到問題時，獨力搜尋並解決問題，並在學習新技術上更有心得。",
+        "frontFrame": "在前端框架上，使用過 Backbone.js + jQuery，目前主要使用 React + Flux/Redux 及其相關生態系的套件進行開發，目前主要以 React Hook 為主要的開發方式，在 Redux 的非同步處理 middleware 上則有 Redux-Saga 的使用經驗。",
+        "styleExp": "樣式設計上有 Sass 與 CSS Modules 的使用經驗，目前也在研究 Emotion，期許自己能在開發能力上更精進。",
+        "buildEnv": "參與過 webpack 與 Grunt + RequireJS 的開發環境建置，以及 GitLab CI/CD YAML file 設定，作為一名前端工程師，不只是開發網頁，對於開發流程也有所理解。"
+    },
+    "workExperience": {
+        "senao": {
+            "projects": {
+                "enGeniusCloud": {
+                    "name": "EnGenius Cloud 網頁界面",
+                    "descriptions": [
+                        "開發新功能並維護現有產品",
+                        "與 UI/UX 及 PM 溝通，評估產品實做方式"
+                    ]
+                },
+                "selfHostedManagementTool": {
+                    "name": "可自我裝載的企業級網路管理工具之網頁界面",
+                    "descriptions": [
+                        "開發新功能並維護現有產品",
+                        "與 UI/UX 及 PM 溝通，評估產品實做方式"
+                    ]
+                }
+            }
+        },
+        "latticeWork": {
+            "projects": {
+                "amber": {
+                    "name": "AmberPRO 及 Amber X 之網頁界面",
+                    "descriptions": [
+                        "開發新功能並維護現有產品",
+                        "與 UI/UX 及 PM 溝通，評估產品實做方式"
+                    ]
+                },
+                "migrateDevelopmentEnvironment": {
+                    "name": "開發環境轉移",
+                    "descriptions": [
+                        "將軟體套件管理系統由 Bower 轉移至 npm",
+                        "將前端打包工具由 Grunt + RequireJS 轉移至 webpack",
+                        "導入 Babel 與 ESLint，讓 Backbone.js 也可以使用 ES6+ 功能"
+                    ]
+                }
+            }
+        }
+    }
+}

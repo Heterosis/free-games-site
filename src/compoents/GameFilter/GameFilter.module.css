@@ -1,0 +1,14 @@
+.DropdownMenu {
+  margin-left: 0.5em;
+}
+
+.FilterText {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 38px;
+}

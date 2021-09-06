@@ -1,0 +1,32 @@
+.GameCard {
+  height: 350px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.GameCard:hover {
+  transform: scale(1.05);
+}
+
+.GameTitle {
+  height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.GameThumbnail {
+  height: 100%;
+  object-fit: cover;
+}
+
+.ShortDescription {
+  height: 48px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.TagPill {
+  background-color: gray;
+  color: rgb(248, 249, 250);
+  margin-right: 1em;
+}

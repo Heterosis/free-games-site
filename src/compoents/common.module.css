@@ -1,0 +1,27 @@
+.TitleText {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: transparent;
+  background-image: linear-gradient(to right, rgb(76, 230, 179), rgb(0, 0, 0));
+  background-clip: text;
+  letter-spacing: 3px;
+}
+
+.MarginX {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+@media (max-width: 992px) {
+  .MarginX {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .MarginX {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

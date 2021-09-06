@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(11, 13, 14);
+}
+
+#app {
+  padding: 0 10vw;
+}
+
+.dropdown-menu {
+  color: #dee2e6;
+  background-color: #343a40;
+  border-color: rgba(0, 0, 0, .15);
+  max-height: 30vh;
+  overflow-y: auto;
+}

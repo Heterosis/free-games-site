@@ -1,0 +1,49 @@
+.SectionWrapper {
+  margin-bottom: 100px;
+}
+
+.Header {
+  height: 100vh;
+  background-color: rgb(76, 230, 179);
+}
+
+.HeaderAnimation {
+  user-select: none;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: pulse;
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1)
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05)
+  }
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1)
+  }
+}
+
+.TransparentBg {
+  background-color: transparent;
+}
+
+.Navbar {
+  font-weight: 600;
+}
+
+.TopNavbarColor {
+  background-color: rgb(76, 230, 179);
+  transition: background-color 0.25s;
+}
+
+.NavbarColor {
+  background-color: rgba(76, 230, 179, 0.9);
+  transition: background-color 0.25s;
+}
