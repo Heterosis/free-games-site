@@ -1,0 +1,48 @@
+{
+    "headerText": "Constant catching up in Frontend engineering",
+    "aboutMe": {
+        "introduce": "Hi! I am a self-taught frontend engineer. Due to the self-taught experience, I am confident with solving problems by myself and learning new skills quickly.",
+        "frontFrame": "Currently developing products with tools from React + Flux/Redux ecosystem, includes React Hook and Redux-Saga, and having experience of Backbone.js and jQuery.",
+        "styleExp": "Experienced with Sass and CSS Modules, I am working on studying Emotion to improve my web styling skiils.",
+        "buildEnv": "Knowing the development process: I have the experience of setting up webpack, Grunt + RequireJS and GitLab CI/CD YAML files."
+    },
+    "workExperience": {
+        "senao": {
+            "projects": {
+                "enGeniusCloud": {
+                    "name": "Web GUI of EnGenius Cloud",
+                    "descriptions": [
+                        "Implement new features and maintain existing code",
+                        "Communicate with UI/UX and Product Manager and evaluate product software implementation methods"
+                    ]
+                },
+                "selfHostedManagementTool": {
+                    "name": "Web GUI of a self-hosted management tool for Enterprise-Level networks",
+                    "descriptions": [
+                        "Implement new features and maintain existing code",
+                        "Communicate with UI/UX and Product Manager and evaluate product software implementation methods"
+                    ]
+                }
+            }
+        },
+        "latticeWork": {
+            "projects": {
+                "amber": {
+                    "name": "Web GUI of AmberPRO and Amber X",
+                    "descriptions": [
+                        "Implement new features and maintain existing code",
+                        "Communicate with UI/UX and Product Manager and evaluate product software implementation methods"
+                    ]
+                },
+                "migrateDevelopmentEnvironment": {
+                    "name": "Migrate Development Environment",
+                    "descriptions": [
+                        "Migrate package manager from Bower to npm",
+                        "Migrate module bundler from Grunt+RequireJS to webpack",
+                        "Integrate Babel and ESLint to support ES6+ features"
+                    ]
+                }
+            }
+        }
+    }
+}
