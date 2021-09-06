@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import GameFilter from 'compoents/GameFilter';
 import GamesArea from 'compoents/GamesArea';
@@ -54,6 +55,11 @@ const App = () => {
         setSort={setSort}
       />
       <GamesArea isLoading={isLoading} games={currentData} />
+      <div className="position-fixed top-0 end-0">
+        <a href="https://github.com/Heterosis/free-games-site" target="_blank" rel="noreferrer">
+          <FontAwesomeIcon icon={['fab', 'github']} style={{ fontSize: 40 }} />
+        </a>
+      </div>
     </>
   );
 };
